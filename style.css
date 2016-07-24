@@ -412,6 +412,9 @@ h1,h2{
     .sub_Article p{
         font-size: 14px;
     }
+    .sub_Article2{
+        margin-top: 20px;
+    }
     .ice{
     height: 2000px;
 }
