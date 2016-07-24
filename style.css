@@ -1,0 +1,541 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower|Oswald:700);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+h1,h2{
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.menu_Wrap{
+    width: 80%;
+    height: 50px;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+#menu{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#menu li{
+    width: 7%;
+    margin-left: 5%;
+    float: left;
+}
+#menu li:nth-child(3){
+    width: 10%;
+}
+#menu li:nth-child(5){
+    width: 11%;
+}
+#menu li:nth-child(6){
+    width: 9%;
+}
+#menu li a:hover{
+    color:palevioletred;
+}
+.index_Bg{
+    position: relative;
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+    border-radius:25px;
+    background: url(./img/main.png);
+    background-size: cover;
+}
+.logo{
+    position: absolute;
+    border-radius: 50%;
+    left: 50%;
+    margin-left: -125px;
+    top: 50%;
+    margin-top: -125px;
+    width: 250px;
+    height: 250px;
+    background: url(./img/logo.png);
+    background-size: cover;
+    background-position: center;
+}
+.main_List_Wrap{
+    margin: 30px auto;
+    width: 80%;
+    height:680px;
+}
+.main_List_Wrap>a>div{
+    position: relative;
+    width: 30%;
+    margin: 1.5%;
+    height: 300px;
+    float: left;
+    border-radius: 25px;
+}
+.main_List_Wrap>div{
+    position: relative;
+    width: 30%;
+    margin: 1.5%;
+    height: 300px;
+    float: left;
+    border-radius: 25px;
+}
+.main_List_Wrap>a>div>strong{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 20px;
+    left: 50%;
+    margin-left: -25%;
+    padding:4px;
+    z-index: 2;
+    display:none;
+    width: 50%;
+    height:18px;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Indie Flower', cursive;
+}
+.slides{
+    position: absolute;
+    width:100%;
+    height: 300px;
+    border-radius: 25px;
+    border: 1px solid black;
+}
+.ice_Cream{
+    background: url(./img/icecream.png);
+    background-size: cover;
+}
+.frozen_Yogurt{
+    background: url(./img/yo.png);
+    background-size: cover;
+}
+.belgian_Waffles{
+    background: url(./img/wa.png);
+    background-size: cover;
+}
+.bg4{
+    background: url(img/oyya.png);
+    background-size: cover;
+}
+.coming_Soon{
+    background: url(./img/ev.png);
+    background-size: cover;
+}
+#footer{
+    width: 80%;
+    margin: 0 auto;
+}
+#footer p{
+    clear: both;
+    text-align: center;
+    margin-top:5px;
+    font-weight: 400;
+    font-family: 'Indie Flower', cursive;
+}
+#footer p:nth-child(2){
+    margin-top: 12px;
+}
+#footer p:nth-child(6){
+    margin-top: 10px;
+    color: grey;
+}
+#footer span:hover{
+    cursor: pointer;
+    color: palevioletred;
+}
+.sns{
+    width:25%;
+    height: 50px;
+    margin: 0 auto;
+}
+.sns li{
+    width: 20%;
+    height: 50px;
+    margin-left:12px;
+    float: left;
+}
+.fb{
+    background: url(img/fb.png);
+    background-size: cover;
+}
+.fb:hover{
+    cursor: pointer;
+}
+.tw{
+    background: url(img/tw.png);
+    background-size: cover;
+}
+.in{
+    background: url(img/in.png);
+    background-size: cover;
+}
+.in:hover{
+    cursor: pointer;
+}
+.ln{
+    background: url(img/ln.png);
+    background-size: cover;
+}
+.ic_Bg{
+    position: relative;
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+    border-radius:25px;
+    background: url(./img/icemain.png);
+    background-size: cover;
+}
+.sub_Wrap{
+    position: relative;
+    margin: 30px auto;
+    width: 80%;
+}
+.ice{
+    height: 1500px;
+}
+.ice1{
+    height: 1200px;
+}
+.frozen{
+    height: 1200px;
+}
+.frozen1{
+    height: 900px;
+}
+.wa{
+    height: 900px;
+}
+.wa1{
+    height: 600px;
+}
+.con{
+    height: 350px;
+}
+.sub_Slide{
+    position: relative;
+    width: 30%;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+.sub_Article{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 65%;
+    height: 300px;
+}
+.sub_Article p{
+    margin-top: 15px;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+}
+.sub_Article a{
+    border-bottom: 1px solid palevioletred;
+}
+.sub_Article ul{
+    margin-top: 15px;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+}
+.sub_Article2{
+    width: 100%;
+    text-align: center;
+}
+.sub_Article2 h3{
+    clear: both;
+    margin: 10px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.sub_Article h4{
+    margin: 10px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.menu_Img{
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 60px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.menu_Img figcaption{
+    font-family: 'Indie Flower', cursive;
+    font-size: 15px;
+}
+.menu_Img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.fy_Bg{
+    position: relative;
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+    border-radius:25px;
+    background: url(./img/img_Frozen-Yogurt_32593.png);
+    background-size: cover;
+}
+.wa_Bg{
+    position: relative;
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+    border-radius:25px;
+    background: url(./img/img_Wafels_57238.png);
+    background-size: cover;
+}
+.tr_Bg{
+    position: relative;
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+    border-radius:25px;
+    background: url(./img/img_Frozen-Yoghurt-Truck_23592.png);
+    background-size: cover;
+}
+.truck{
+    margin-top: 10px;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+.about_Bg{
+    position: relative;
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+    border-radius:25px;
+    background: url(./img/about.png);
+    background-size: cover;
+}
+.co_Bg{
+    position: relative;
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+    border-radius:25px;
+    background: url(./img/con.png);
+    background-size:cover;
+}
+.mb_Menu{
+    display: none;
+}
+@media only screen and (max-width:1040px){
+    .main_List_Wrap>a>div>strong{
+        padding-top: 8px;
+        padding-bottom: 12px;
+        height: 22px;
+    }
+    .main_List_Wrap{
+        height: 1000px;
+    }
+    .main_List_Wrap>a>div{
+    position: relative;
+    width: 48%;
+    margin: 1%;
+}
+    .main_List_Wrap>div{
+    position: relative;
+    width: 48%;
+    margin: 1%;
+}
+    .sns{
+    width:30%;
+    height: 50px;
+    margin: 0 auto;
+}
+    h1,h2{
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+    .sub_Article p{
+        font-size: 14px;
+    }
+    .ice{
+    height: 2000px;
+}
+.ice1{
+    height: 1700px;
+}
+.frozen{
+    height: 1700px;
+}
+.frozen1{
+    height: 1400px;
+}
+.wa{
+    height: 1200px;
+}
+.wa1{
+    height: 900px;
+}
+    .mb_Menu{
+        display: none;
+    }
+}
+@media only screen and (max-width:510px){
+     .main_List_Wrap>a>div{
+    position: relative;
+    width: 98%;
+    margin: 1%;
+}
+    .main_List_Wrap>div{
+    position: relative;
+    width: 98%;
+    margin: 1%;
+}
+    .sns{
+    width:80%;
+    height: 70px;
+    margin: 0 auto;
+}
+    .main_List_Wrap{
+        height: 1860px;
+    }
+    .ic_Bg{
+        display: none;
+    }
+    .sub_Slide{
+        display: none;
+    }
+    .sub_Article{
+    position: static;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+    .menu_Img{
+    width: 100px;
+    height: 100px;
+}
+     .ice{
+    height: 1580px;
+}
+.ice1{
+    height: 1350px;
+}
+    .fy_Bg{
+        display: none;
+    }
+    .wa_Bg{
+        display: none;
+    }
+    .sub_Article{
+        height: auto;
+    }
+    .frozen{
+    height: 1400px;
+}
+.frozen1{
+    height: 1050px;
+}
+    .wa{
+    height: 1000px;
+}
+.wa1{
+    height: 700px;
+}
+    .about_Bg{
+    display: none;
+}
+    .tr_Bg{
+        display: none;
+    }
+    #menu{
+        display: none;
+    }
+    .mb_Menu{
+        display: block;
+        width: 100%;
+        height:40px;
+        background-color: black;
+        color: white;
+    }
+    .mb_Menu span{
+        margin-left:10px;
+        font-size: 40px;
+    }
+    .mb_Menu span:hover{
+        cursor: pointer;
+    }
+    .mb_Menu ul{
+        display: none;
+        position: absolute;
+        width: 80%;
+        z-index: 3;
+        font-size:30px;
+        background-color:white;
+        opacity: 0.9;
+    }
+    .mb_Menu li{
+        border: 1px solid black;
+        padding:10px;
+        font-family: 'Indie Flower', cursive;
+    }
+    .mb_Menu li a:hover{
+        color: palevioletred;
+    }
+}
