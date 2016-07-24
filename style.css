@@ -437,7 +437,7 @@ h1,h2{
         display: none;
     }
 }
-@media only screen and (max-width:320px){
+@media only screen and (max-width:510px){
      .main_List_Wrap>a>div{
     position: relative;
     width: 98%;
@@ -449,7 +449,7 @@ h1,h2{
     margin: 1%;
 }
     .sns{
-    width:80%;
+    width:100%;
     height: 70px;
     margin: 0 auto;
 }
