@@ -197,13 +197,13 @@ h1,h2{
 }
 .sns{
     width:25%;
-    height: 50px;
+    height: 80px;
     margin: 0 auto;
 }
 .sns li{
-    width: 20%;
-    height: 50px;
-    margin-left:12px;
+    width: 22%;
+    height: 80px;
+    margin-left: 3px;
     float: left;
 }
 .fb{
